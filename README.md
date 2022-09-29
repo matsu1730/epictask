@@ -48,3 +48,31 @@ Hibernate:
        foreign key (user_id) 
        references tb_user
 ```
+
+## Requests utilizadas
+
+### Listar Todas
+```
+GET http://4.236.218.201:8080/api/task/
+###
+```
+
+# Apagar
+```
+DELETE http://4.236.218.201:8080/api/task/5
+###
+```
+
+# Cadastrar
+```
+POST  http://4.236.218.201:8080/api/task/
+Content-Type: application/json
+Authorization: Basic joao@fiap.com.br 123
+
+{
+      "title": "Modelar o BD",
+      "description": "Modelar as tabelas do banco",
+      "score": 100
+}
+###
+```
