@@ -1,6 +1,14 @@
 # epictask - Deploy ACI utilizando imagem no ACR
 
-Segue abaixo DDL das tables
+## Integrantes
+
+Alfonso Matsuoka RM87336
+Lucas Matutani RM87283
+Ryan Basque RM89176
+Pedro Albuquerque RM86777
+Priscila Leal RM88065
+
+### Segue abaixo DDL das tables
 
 ```
 Hibernate: 
