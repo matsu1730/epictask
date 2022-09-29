@@ -38,7 +38,7 @@ public class TaskController {
     
     @GetMapping()
     @Cacheable("tasks")
-    public Page<Task> index(@PageableDefault(size = 5) Pageable paginacao){
+    public Page<Task> index(@PageableDefault(size = 10) Pageable paginacao){
         return service.listAll(paginacao);
     }
 

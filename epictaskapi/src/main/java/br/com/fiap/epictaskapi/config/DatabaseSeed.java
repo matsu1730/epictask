@@ -34,12 +34,7 @@ public class DatabaseSeed implements CommandLineRunner {
             new Task("Bug", "Modelar as tabelas do banco", 50 , 90), 
             new Task("Prototipo", "Modelar as tabelas do banco", 30 , 70), 
             new Task("Deploy", "Modelar as tabelas do banco", 10 , 25), 
-            new Task("Login", "Modelar as tabelas do banco", 40 , 12), 
-            new Task("Criar token", "Modelar as tabelas do banco", 55 , 10), 
-            new Task("Analise de dados", "Modelar as tabelas do banco", 5 , 60), 
-            new Task("Testes unitários", "Modelar as tabelas do banco", 200 , 40), 
-            new Task("Configurar ambiente", "Modelar as tabelas do banco", 210 , 0), 
-            new Task("Prototipo", "prototipar as telas", 190 , 70)
+            new Task("Login", "Modelar as tabelas do banco", 40 , 12)
         ));
         
     }

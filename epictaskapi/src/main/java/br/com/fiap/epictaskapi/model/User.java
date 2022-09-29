@@ -23,7 +23,7 @@ import net.bytebuddy.agent.builder.AgentBuilder.PoolStrategy.Eager;
 @Table(name = "TB_USER")
 public class User implements UserDetails{
 
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String email;
