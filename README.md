@@ -54,16 +54,16 @@ Hibernate:
 ### Listar Todas
 ```
 GET http://4.236.218.201:8080/api/task/
-###
+Authorization: Basic joao@fiap.com.br 123
 ```
 
-# Apagar
+### Apagar
 ```
 DELETE http://4.236.218.201:8080/api/task/5
-###
+Authorization: Basic joao@fiap.com.br 123
 ```
 
-# Cadastrar
+### Cadastrar
 ```
 POST  http://4.236.218.201:8080/api/task/
 Content-Type: application/json
