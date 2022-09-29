@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "81423e45-03a9-441b-a53e-100ef0cbf49f",
+		"name": "ACI-EPICTASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19590648"
+	},
+	"item": [
+		{
+			"name": "GET TASK",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "joao@fiap.com.br",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.232.60.110:8080/api/task/",
+					"protocol": "http",
+					"host": [
+						"20",
+						"232",
+						"60",
+						"110"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE TASK",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "joao@fiap.com.br",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://20.232.60.110:8080/api/task/5",
+					"protocol": "http",
+					"host": [
+						"20",
+						"232",
+						"60",
+						"110"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST TASK",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "joao@fiap.com.br",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"title\": \"CHECKPOINT 2 DEVOPS VIDEO 3\",\r\n      \"description\": \"Checkpoint da disciplina\",\r\n      \"score\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.232.60.110:8080/api/task/",
+					"protocol": "http",
+					"host": [
+						"20",
+						"232",
+						"60",
+						"110"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT TASK",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "joao@fiap.com.br",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"title\": \"CHECKPOINT 2 DEVOPS PUT\",\r\n      \"description\": \"Checkpoint da disciplina metodo PUT\",\r\n      \"score\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.232.60.110:8080/api/task/1",
+					"protocol": "http",
+					"host": [
+						"20",
+						"232",
+						"60",
+						"110"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
