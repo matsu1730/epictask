@@ -82,5 +82,17 @@ Authorization: Basic joao@fiap.com.br 123
       "description": "Modelar as tabelas do banco",
       "score": 100
 }
-###
+```
+
+### Editar
+```
+POST  http://4.236.218.201:8080/api/task/1
+Content-Type: application/json
+Authorization: Basic joao@fiap.com.br 123
+
+{
+      "title": "Modelar o BD",
+      "description": "Modelar as tabelas do banco",
+      "score": 100
+}
 ```
