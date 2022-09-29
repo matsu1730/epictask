@@ -86,7 +86,7 @@ Authorization: Basic joao@fiap.com.br 123
 
 ### Editar
 ```
-POST  http://4.236.218.201:8080/api/task/1
+PUT  http://4.236.218.201:8080/api/task/1
 Content-Type: application/json
 Authorization: Basic joao@fiap.com.br 123
 
